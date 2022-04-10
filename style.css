@@ -15,7 +15,7 @@ body
 {
 	margin: auto 0;
 	 box-sizing: border-box;
-	 background: url(images/container3.jpg)no-repeat center center fixed;
+	 background-color:#07080A;
 	 background-size: cover;
 }
 
@@ -151,10 +151,10 @@ span2
 /*------about page---------------------------*/
 .container4
 {
-	background: url(images/container2.jpg)no-repeat ;
+	background:lightgray;
 	background-size:cover;
 	display:grid;
-	margin-top:70px;
+	margin-top:85px;
 	border-bottom: 5px solid black;
 }
 hr 
@@ -198,7 +198,9 @@ hr
 .sk
 {
 	text-align: center;
-}
+	background: url(images/container3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}  
 
 .waviy {
   position: relative;
@@ -375,4 +377,95 @@ footer
 
 
 
+.projectpage
+{
+  background:#07080A;
+}
+.ppc
+{
+  margin-top:100px;
+}
+h1
+{
+  text-align:center;
+  COLOR:WHITE;
+  font-family:sans-serif;
+  position:relative;
+}
 
+hr
+{
+  width:15%;
+  border:.7px solid yellow;
+}
+.bgp
+{
+	position: absolute;
+	z-index: -1;
+	font-size:80px;
+	opacity: 0.1;
+	right:50;
+	left:50;
+	top:40;
+}
+@media only screen and (max-width: 600px)
+{
+	.bgp
+	{
+		font-size:50px;
+	}
+}
+/*--------------------------------------*/
+.container {
+	position: relative;
+	width: 50%;
+	background:transparent;
+  }
+  
+  .image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color:lightgray;
+  }
+  
+  .container:hover .overlay {
+	opacity: .9;
+  }
+  
+  .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  .pp1
+  {
+	  display:grid;
+	  grid-template-columns: auto auto;
+	  border-bottom:1px solid white;
+  }
+  .sidetxt
+  {
+	  text-transform:uppercase;
+	  color:gold;
+	  text-align:left;
+	  font-size:1.5rem;
+  }
