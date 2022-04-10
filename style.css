@@ -248,7 +248,7 @@ hr
   max-width: 300px;
   padding: 16px;
   background-color:grey;
-  box-shadow:4px 4px 4px 4px;
+  box-shadow:4px 4px 4px 4px black;
   font-family:sans-serif;
 }
   input{
@@ -290,7 +290,7 @@ input,textarea{
 }
 .cf
 {
-	background: url(images/cover2.jpg)no-repeat center center fixed;
+	background:white;
 	background-size: cover;
 	text-align: center;
 	font-family: 'Nunito', sans-serif;
@@ -302,7 +302,7 @@ input,textarea{
 	display: grid;
 	grid-template-columns: 2fr 1.5fr;
 	grid-gap: 0;
-	background: url(images/cfimg.jpg)no-repeat center center fixed;
+	background:lightgray;
 	background-size: cover;
 	font-family:'Nunito', sans-serif;;
 }
